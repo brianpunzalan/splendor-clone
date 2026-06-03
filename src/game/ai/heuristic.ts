@@ -145,9 +145,8 @@ export function chooseTokensToReturn(state: GameState, count: number): Partial<R
   const deficit = target ? deficitFor(player, target) : null;
 
   // Rank colors by least useful first; never discard gold unless forced.
-  const order: (GemColor | 'gold')[] = [...GEM_COLORS]
-    .sort((a, b) => (deficit ? deficit[a] - deficit[b] : 0))
-    .concat('gold');
+  const gems = [...GEM_COLORS].sort((a, b) => (deficit ? deficit[a] - deficit[b] : 0));
+  const order: (GemColor | 'gold')[] = [...gems, 'gold'];
 
   const returned: Partial<Record<GemColor | 'gold', number>> = {};
   let remaining = count;

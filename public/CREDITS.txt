@@ -1,0 +1,32 @@
+Splendor — Gem Merchants : Asset Credits
+========================================
+
+This project is an original, fan-made clone of the board game *Splendor*
+(designed by Marc André, published by Space Cowboys). It is non-commercial and
+made for learning. "Splendor" and its card/noble data are the intellectual
+property of their respective owners; this clone reimplements the rules with
+original code and openly-licensed artwork.
+
+Icons
+-----
+The gem, coin, crown, and star icons are from game-icons.net and are used under
+the Creative Commons Attribution 3.0 Unported license (CC BY 3.0):
+https://creativecommons.org/licenses/by/3.0/
+
+  - "Cut diamond" by Lorc            — used for gem tokens & cards
+      https://game-icons.net/1x1/lorc/cut-diamond.html
+  - "Two coins" by Delapouite        — used for gold (joker) tokens
+      https://game-icons.net/1x1/delapouite/two-coins.html
+  - "Crown" by Lorc                  — used for noble tiles
+      https://game-icons.net/1x1/lorc/crown.html
+  - "Round star" by Delapouite       — used for prestige points
+      https://game-icons.net/1x1/delapouite/round-star.html
+
+The icons were recolored and recomposed via CSS for this game. The original
+authors do not endorse this project.
+
+Game rules reference
+--------------------
+  - Splendor rules summaries: geekyhobbies.com, board-games.fandom.com,
+    boardgamearena.com
+  - Card dataset reference: github.com/bouk/splendimax
